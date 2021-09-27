@@ -1,0 +1,4 @@
+G:\Download\AWS_S3Demo-main\AWSDemo\obj\Release\netcoreapp2.1\AWSDemo.csprojAssemblyReference.cache
+G:\Download\AWS_S3Demo-main\AWSDemo\obj\Release\netcoreapp2.1\AWSDemo.AssemblyInfoInputs.cache
+G:\Download\AWS_S3Demo-main\AWSDemo\obj\Release\netcoreapp2.1\AWSDemo.AssemblyInfo.cs
+G:\Download\AWS_S3Demo-main\AWSDemo\obj\Release\netcoreapp2.1\AWSDemo.csproj.CoreCompileInputs.cache
