@@ -129,3 +129,5 @@ G:\Download\AWS_S3Demo-main\XUnitTestApiProject\obj\Release\netcoreapp3.1\XUnitT
 G:\Download\AWS_S3Demo-main\XUnitTestApiProject\bin\Release\netcoreapp3.1\nlog.config
 G:\Download\AWS_S3Demo-main\XUnitTestApiProject\bin\Release\netcoreapp3.1\NLog.dll
 G:\Download\AWS_S3Demo-main\XUnitTestApiProject\bin\Release\netcoreapp3.1\NLog.Extensions.Logging.dll
+G:\Download\AWS_S3Demo-main\XUnitTestApiProject\bin\Release\netcoreapp3.1\Files\6.json
+G:\Download\AWS_S3Demo-main\XUnitTestApiProject\bin\Release\netcoreapp3.1\Files\7.json

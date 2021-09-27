@@ -49,14 +49,14 @@ namespace AWSDemo.Controllers
                 logger.Warning("Warning is logged");
                 logger.Debug("Debug log is logged");
 
-                if (CatlogID != 0 || string.IsNullOrEmpty(Convert.ToString(CatlogID)))
+                if (CatlogID == 0 || string.IsNullOrEmpty(Convert.ToString(CatlogID)))
                 {
                     logger.Warning("Provide the valid CatlogID");
                     return NotFound("Provide the valid CatlogID");
                 }
 
                 var result = await _AWSS3FileService.GetFile(CatlogID.ToString());
-                if (result == null)
+                if (string.IsNullOrEmpty(result.Name) && CatlogID != result.Id)
                 {
                     logger.Warning("Product not found");
                     return NotFound("Product not found");

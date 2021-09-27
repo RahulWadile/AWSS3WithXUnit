@@ -45,3 +45,5 @@ G:\Download\AWS_S3Demo-main\AWSDemo\obj\Release\netcoreapp3.1\AWSDemo.MvcApplica
 G:\Download\AWS_S3Demo-main\AWSDemo\bin\Release\netcoreapp3.1\NLog.dll
 G:\Download\AWS_S3Demo-main\AWSDemo\bin\Release\netcoreapp3.1\NLog.Extensions.Logging.dll
 G:\Download\AWS_S3Demo-main\AWSDemo\bin\Release\netcoreapp3.1\nlog.config
+G:\Download\AWS_S3Demo-main\AWSDemo\bin\Release\netcoreapp3.1\Files\6.json
+G:\Download\AWS_S3Demo-main\AWSDemo\bin\Release\netcoreapp3.1\Files\7.json

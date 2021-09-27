@@ -175,5 +175,32 @@ namespace XUnitTestApiProject
 
             }
         }
+
+        [Fact]
+        public async void NegativeTestCaseTask_GetPostByInvalidInput_Return_Result()
+        {
+            mockS3Service = new Mock<IAWSS3FileService>();
+            mockLogger = new Mock<ILog>();
+
+            awss3Controller = new AWSS3FileController(mockS3Service.Object, mockLogger.Object);
+
+            mockS3Service.Setup(m => m.GetFile(It.IsAny<string>()))
+                .Returns(Task.FromResult(new Catalog
+                {
+                    Id = 1
+                }
+                ));
+
+            //Act  
+            var result = await awss3Controller.GetFile(1000);
+
+
+            var okResult = result as OkObjectResult;
+           
+            // assert
+            Assert.Null(okResult);
+
+        }
+
     }
 }
